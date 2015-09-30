@@ -37,7 +37,7 @@ If you got this:
 
 
 1: DECLARATION OF COPYRIGHT
-   This Product is copyright [COMPANY NAME] (c) [4-DIGIT YEAR] BH-1-PS
+   This Product is copyright RougeWare (c) 2015 BH-1-PS
 
 2: DEFINITIONS
  - "License": this text
