@@ -105,7 +105,7 @@
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
 }
 
-.g, .psli {
+.g, .psli, ._Mcf.vk_c {
     background: #FFF;
     border-bottom: 1px solid transparent;
     border-radius: 2px;
@@ -186,3 +186,14 @@ li.mod {
     border: none;
 }
 
+/* Map result card */
+div._Mcf.vk_c {
+    padding: 0 !important;
+}
+
+/* Map result map */
+._Xhb #lu_map {
+    /* #center_col{width} + #center_col{padding-horiz} */
+    width: calc(528px + 1em - 1px); /* TODO: find a more robust way to match parent width */
+    border-radius: 2px 2px 0 0;
+}
