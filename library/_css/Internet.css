@@ -1,0 +1,9 @@
+@import url("//shared.bhstudios.org/_incl/css-masher.php?ids=0");
+
+:target {
+    box-shadow: 0 0 0px 4px rgba(34,119,187,.2);
+}
+
+textarea {
+    font-family: monospace;
+}
