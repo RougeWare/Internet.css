@@ -219,3 +219,25 @@ h2._hM ._mB {
     border-radius: 2px;
     margin-right: -1em !important;
 }
+
+/* Did you mean ___? */
+#taw .med div {
+    text-align: center;
+}
+    .ssp.card-section {
+        background-color: #dd4b39;
+        border-radius: 99in;
+        padding: .5em 1em;
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+        top: -2em;
+    }
+        ._uwb {
+            color: #FFF !important;
+        }
+        
+        .ssp.card-section a.spell {
+            color: #BBDEFB;
+            text-decoration: underline !important;
+        }
