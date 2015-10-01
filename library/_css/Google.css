@@ -73,14 +73,6 @@
     text-align: right;
 }
 
-.shadow-2 {
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
-}
-
-.shadow-3, ._zeh {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
-}
-
 ._zeh {
     background-color: #FFF ;
     border-radius: 99in;
@@ -97,15 +89,23 @@
     margin: 0;
 }
 
-.shadow-1, .g, .plsi, .card {
+.shadow-1, .g, .plsi, .card, .ads-ad, #rhs .rhsvw {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-2 {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-3, ._zeh {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
 }
 
 .shadow-4, ._zeh:active {
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
 }
 
-.g, .psli, ._Mcf.vk_c {
+.g, .psli, ._Mcf.vk_c, .ads-ad {
     background: #FFF;
     border-bottom: 1px solid transparent;
     border-radius: 2px;
@@ -196,4 +196,22 @@ div._Mcf.vk_c {
     /* #center_col{width} + #center_col{padding-horiz} */
     width: calc(528px + 1em - 1px); /* TODO: find a more robust way to match parent width */
     border-radius: 2px 2px 0 0;
+}
+
+
+.ads-ad {
+    background: #FFFDE7;
+}
+
+h2._hM ._mB {
+    font-size: 1.5em;
+    background-color: transparent;
+    color: inherit;
+    margin-bottom: 1em;
+}
+
+#rhs .rhsvw {
+    border: none;
+    border-radius: 2px;
+    margin-right: -1em !important;
 }
