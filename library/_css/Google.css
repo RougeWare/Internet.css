@@ -1,0 +1,221 @@
+@import 'Internet.css';
+
+#cnt {
+    background: #EEE;
+}
+
+#res {
+    margin-top: 1em;
+}
+
+#rhs {
+    margin-top: 1.6em;
+}
+
+#rhs .g-blk.rhsvw {
+    padding: 1em;
+}
+
+#rhs .kno-fb-ctx._Dnh {
+    padding-left: 0.75em;
+    text-align: center;
+}
+
+#rhs .kno-ftr.rhsvw {
+    width: 214px;
+}
+
+#rhs .kp-blk {
+    box-shadow: none;
+    margin: 0;
+}
+
+#rso>.g.tpo {
+    /* Big convenience card at top */
+    border-bottom-color: transparent;
+    padding: 0;
+}
+
+.nrgt {
+    /* result site navigation */
+    margin-left: 0;
+}
+
+#sfdiv {
+    border-bottom-right-radius: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0;
+}
+
+._OKe .g {
+    background-color: transparent ;
+    border: none ;
+    box-shadow: none ;
+    /* Result in fancy card */
+}
+
+._Ugf .kno-vrt-t, #rhs ._Ugf .kno-vrt-t {
+    padding-left: 0;
+}
+
+._c4._Dnh {
+    text-align: center;
+}
+
+._kk._wI {
+    /* Image results */
+    /*margin-top: 2em;*/
+}
+
+._uhe {
+    padding: 0 1em;
+    position: static;
+    text-align: right;
+}
+
+._zeh {
+    background-color: #FFF ;
+    border-radius: 99in;
+    /*box-shadow: 0 2px 5px rgba(0,0,0, .2);*/
+    /* Right and left arrows in scrolling result */
+    height: 3em ;
+    opacity: 1 ;
+    width: 3em ;
+    transition-property: opacity, box-shadow;
+}
+
+.g .vk_cxp {
+    box-shadow: none;
+    margin: 0;
+}
+
+.shadow-1, .g, .plsi, .card, .ads-ad, #rhs .rhsvw {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-2 {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-3, ._zeh {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-4, ._zeh:active {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
+}
+
+.g, .psli, ._Mcf.vk_c, .ads-ad {
+    background: #FFF;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+    /*box-shadow: 0px 1px 2px rgba(0,0,0, 0.25);*/
+    margin: 0 -1em 1.5em;
+    padding: 1em;
+}
+
+.g:nth-child(4n) {
+    border-bottom-color: #0f9d58;
+}
+
+.g:nth-child(4n-1) {
+    border-bottom-color: #f4b400;
+}
+
+.g:nth-child(4n-2) {
+    border-bottom-color: #db4437;
+}
+
+.g:nth-child(4n-3) {
+    border-bottom-color: #4285f4;
+}
+
+.kno-ftr {
+    box-sizing: border-box;
+    /* Feedback footer in fancy card */
+    width: 100% ;
+}
+
+.kp-blk {
+    box-shadow: none ;
+    /* Fancy card */
+    margin: auto ;
+}
+
+.nb-disabled {
+    /* Disabled right and left arrows in scrolling result */
+    opacity: 0 ;
+}
+
+.rgsep {
+    display: none;
+}
+
+body, .g, html, .std, .c h2, h1, #cdr_min, #cdr_max, .cpbb, .kpbb, .kprb, .kpgb, .kpgrb, .ksb {
+    font-family: sans-serif;
+}
+
+/*#taw {
+    background-color: #039BE5;
+    color: #B3E5FC;
+    margin: -.75em calc(-1em + 8px) 0;
+    transition: opacity .3s ease;
+    /*opacity: 0;/
+}
+
+#taw hr {
+    display: none;
+}
+
+#taw :link, #taw :visited {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+[style*=visible]>#taw {
+    opacity: 1;
+}*/
+
+li.mod {
+    /* Section in fancy card */
+    padding: 0 ;
+}
+
+.t7iPNCE6YvC__nav-left, .t7iPNCE6YvC__nav-right {
+    /* Right and left border lines on scrolling results */
+    border: none;
+}
+
+/* Map result card */
+div._Mcf.vk_c {
+    padding: 0 !important;
+}
+
+/* Map result map */
+._Xhb #lu_map {
+    /* #center_col{width} + #center_col{padding-horiz} */
+    width: calc(528px + 1em - 1px); /* TODO: find a more robust way to match parent width */
+    border-radius: 2px 2px 0 0;
+}
+
+
+.ads-ad {
+    background: #FFFDE7;
+}
+#tads .ads-ad {
+    margin-left: -.5em !important;
+    margin-right: -.5em !important;
+}
+
+h2._hM ._mB {
+    font-size: 1.5em;
+    background-color: transparent;
+    color: inherit;
+    margin-bottom: 1em;
+}
+
+#rhs .rhsvw {
+    border: none;
+    border-radius: 2px;
+    margin-right: -1em !important;
+}
