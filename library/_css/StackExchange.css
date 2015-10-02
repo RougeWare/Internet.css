@@ -279,3 +279,9 @@ tr.comment>td {
     border-color: rgba(0,0,0, 0.05);
 }
 
+.post-text hr {
+    margin-right: -0.5em;
+}
+    .accepted-answer .post-text hr {
+        margin-right: 0;
+    }
