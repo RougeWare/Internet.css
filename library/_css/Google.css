@@ -106,7 +106,7 @@
 }
 
 .g, .psli, ._Mcf.vk_c, .ads-ad {
-    background: #FFF;
+    background: #FFF !important;
     border-bottom: 1px solid transparent;
     border-radius: 2px;
     margin: 0 -1em 1.5em !important;
