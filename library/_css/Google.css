@@ -223,15 +223,16 @@ h2._hM ._mB {
 /* Did you mean ___? */
 #taw .med div {
     text-align: center;
+    position: absolute;
+    width: 100%;
+    top: -2em;
+    z-index: 1;
 }
     .ssp.card-section {
         background-color: #dd4b39;
         border-radius: 99in;
         padding: .5em 1em;
         display: inline-block;
-        position: absolute;
-        z-index: 1;
-        top: -2em;
     }
         ._uwb {
             color: #FFF !important;
@@ -241,3 +242,30 @@ h2._hM ._mB {
             color: #BBDEFB;
             text-decoration: underline !important;
         }
+
+
+/* Unit conversion card */
+#rcnt #center_col #res .card-section {
+    background-color: transparent;
+    margin: 0;
+    padding: 1em;
+    box-shadow: none;
+    text-align: center;
+}
+    
+    #rcnt #center_col #res .card-section select {
+        width: 100%;
+    }
+    
+    #rcnt #center_col #res .card-section ._cif {
+        width: calc(50% - 2em);
+    }
+    
+    #rcnt #center_col #res .card-section ._eif {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #rcnt #center_col #res ._vm {
+        margin: 0 -1em .5em;
+    }
