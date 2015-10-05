@@ -90,28 +90,27 @@
 }
 
 .shadow-1, .g, .plsi, .card, .ads-ad, #rhs .rhsvw {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
 .shadow-2 {
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4) !important;
 }
 
 .shadow-3, ._zeh {
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4) !important;
 }
 
 .shadow-4, ._zeh:active {
-    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4) !important;
 }
 
 .g, .psli, ._Mcf.vk_c, .ads-ad {
     background: #FFF;
     border-bottom: 1px solid transparent;
     border-radius: 2px;
-    /*box-shadow: 0px 1px 2px rgba(0,0,0, 0.25);*/
-    margin: 0 -1em 1.5em;
-    padding: 1em;
+    margin: 0 -1em 1.5em !important;
+    padding: 1em !important;
 }
 
 .g:nth-child(4n) {
@@ -200,7 +199,9 @@ div._Mcf.vk_c {
 
 
 .ads-ad {
-    background: #FFFDE7;
+    background: #FFFDE7 !important;
+    margin-left: -.5em !important;
+    margin-right: -.5em !important;
 }
 #tads .ads-ad {
     margin-left: -.5em !important;
