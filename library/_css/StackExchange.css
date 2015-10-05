@@ -30,14 +30,17 @@
     background-color: transparent;
 }
 
-#tabs a, .tabs a, .subtabs a {
+#tabs a, .tabs a, .subtabs a,
+#tabs a:hover, .tabs a:hover, .subtabs a:hover,
+#tabs a.youarehere, .tabs a.youarehere, .subtabs a.youarehere {
     background: none;
     border: none;
     border-bottom: 2px solid transparent;
     transition-property: border-bottom;
 }
 
-#tabs a.youarehere, .tabs a.youarehere, .subtabs a.youarehere, #tabs a:hover, .tabs a:hover, .subtabs a:hover {
+#tabs a:hover, .tabs a:hover, .subtabs a:hover,
+#tabs a.youarehere, .tabs a.youarehere, .subtabs a.youarehere {
     border-bottom-color: #f69c55;
 }
 
