@@ -278,3 +278,9 @@ h2._hM ._mB {
     #rcnt #center_col #res ._vm {
         margin: 0 -1em .5em;
     }
+
+/* Customer Support card */
+#center_col #res .kp-blk { /* Note: kb-blk probably means a lot more than customer support */
+    margin: -1em;
+    box-shadow: none;
+}
