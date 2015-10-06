@@ -1,0 +1,61 @@
+#stylebot-container button {
+    height: auto;
+}
+
+.clauses .header .logical {
+    visibility: hidden;
+}
+
+.clauses .logical, .icon-add:not(#mi_1849) {
+    position: relative;
+    top: -1em;
+}
+
+.grid-cell[style*="text-indent: 32"], .grid-cell[style*="text-indent: 48"] {
+    background: rgba(127,127,127,.15);
+}
+
+.node-content {
+    padding-right: 0;
+}
+
+.richeditor-editarea iframe {
+    outline: 1px solid #BBB;
+    resize: vertical;
+}
+
+[title$="Critical"] {
+    background-color: #212121;
+    color: #FFF;
+}
+
+[title$="High"] {
+    background-color: #EF9A9A;
+}
+
+[title$="Medium"] {
+    background-color: #FFF9C4;
+}
+
+[title*="Design"] {
+    background-color: #FFF;
+    background-image: linear-gradient(#E3F2FD 1px, transparent 1px), linear-gradient(90deg, #E3F2FD 1px, transparent 1px);
+    background-size: 5px 5px, 5px 5px;
+}
+
+[title="Done"] {
+    background-color: #EEEEEE;
+}
+
+[title="In Progress"], [title="Development"] {
+    background-color: #A5D6A7;
+}
+
+[title="QA"], [title="Testing"] {
+    background-color: #81D4FA;
+}
+
+[title="To Do"] {
+    color: #795548;
+}
+
