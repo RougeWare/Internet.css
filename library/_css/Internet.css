@@ -8,6 +8,6 @@ textarea {
     font-family: monospace;
 }
 
-li {
+ol, ul, menu {
     margin-left: 2em;
 }
