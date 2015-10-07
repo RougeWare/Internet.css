@@ -22,7 +22,9 @@
 .node-content {
     padding-right: 0;
 }
-
+.richeditor-editarea {
+    position: static;
+}
 .richeditor-editarea iframe {
     outline: 1px solid #BBB;
     resize: vertical;
