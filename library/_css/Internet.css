@@ -7,3 +7,7 @@
 textarea {
     font-family: monospace;
 }
+
+li {
+    margin-left: 2em;
+}
