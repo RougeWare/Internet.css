@@ -6,9 +6,13 @@
     visibility: hidden;
 }
 
-.clauses .logical, .icon-add:not(#mi_1849) {
+.clauses .logical, .icon-add {
     position: relative;
     top: -1em;
+}
+
+.menu-item.icon-only .icon-add {
+    position: static;
 }
 
 .grid-cell[style*="text-indent: 32"], .grid-cell[style*="text-indent: 48"] {
