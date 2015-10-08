@@ -27,7 +27,7 @@
 
 #rhs .kp-blk {
     box-shadow: none;
-    margin: 0;
+    margin: 0 !important;
 }
 
 #rso>.g.tpo {
@@ -73,11 +73,12 @@
     text-align: right;
 }
 
-._zeh {
-    background-color: #FFF ;
-    border-radius: 99in;
-    /*box-shadow: 0 2px 5px rgba(0,0,0, .2);*/
+._zeh._W6g,
+g-flippy-carousel g-left-button,
+g-flippy-carousel g-right-button {
     /* Right and left arrows in scrolling result */
+    background-color: #FFF !important;
+    border-radius: 99in;
     height: 3em ;
     opacity: 1 ;
     width: 3em ;
@@ -90,11 +91,11 @@
 }
 
 /* Material Shadows, by z-depth */
-.shadow-1, .g, .plsi, .card, .ads-ad, #rhs .rhsvw {
+.shadow-1, .srg>.g, .g.g-blk, .plsi, .card, .ads-ad, #rso>.g {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
-.shadow-2, #taw .med div .card-section {
+.shadow-2, , #taw .med div .card-section {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4) !important;
 }
 
@@ -106,7 +107,7 @@
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4) !important;
 }
 
-.g, .psli, ._Mcf.vk_c, .ads-ad {
+.srg>.g, .g.g-blk, #rso>.g, .psli, ._Mcf.vk_c, .ads-ad {
     background: #FFF !important;
     border-bottom: 1px solid transparent;
     border-radius: 2px;
@@ -181,7 +182,8 @@ li.mod {
     padding: 0 ;
 }
 
-.t7iPNCE6YvC__nav-left, .t7iPNCE6YvC__nav-right {
+._ofh.t7iPNCE6YvC__nav-left,
+._ofh.t7iPNCE6YvC__nav-right {
     /* Right and left border lines on scrolling results */
     border: none;
 }
@@ -203,12 +205,9 @@ div._Mcf.vk_c {
     /* Top Ads section */
     margin-top: 1.5em;
 }
-    .ads-ad {
-        /* Almost every ad */
-        background: #FFFDE7 !important;
-    }
     #tads .ads-ad {
         /* Each ad in the Top Ads section */
+        background: #FFFDE7 !important;
         margin-left: -.5em !important;
         margin-right: -.5em !important;
     }
@@ -227,11 +226,18 @@ h2._hM ._mB {
     margin-bottom: 1em;
 }
 
+/* Right-hand side results */
 #rhs .rhsvw {
     border: none;
     border-radius: 2px;
     margin-right: -1em !important;
+    box-sizing: border-box;
+    width: 100% !important;
 }
+    #rhs .rhsvw._wD {
+        box-sizing: border-box;
+        width: 100%;
+    }
 
 /* "Did you mean ___?"" is .ssp
  * "Showing results for ___\nSearch instead for ___" is .sp_cnt
