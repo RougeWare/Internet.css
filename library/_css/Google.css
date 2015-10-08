@@ -89,11 +89,12 @@
     margin: 0;
 }
 
+/* Material Shadows, by z-depth */
 .shadow-1, .g, .plsi, .card, .ads-ad, #rhs .rhsvw {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
-.shadow-2 {
+.shadow-2, , #taw .med div .card-section {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4) !important;
 }
 
@@ -229,7 +230,10 @@ h2._hM ._mB {
     margin-right: -1em !important;
 }
 
-/* Did you mean ___? */
+/* "Did you mean ___?"" is .ssp
+ * "Showing results for ___\nSearch instead for ___" is .sp_cnt
+ * Both are p.card-section inside .med div
+ */
 #taw .med div {
     text-align: center;
     position: absolute;
@@ -237,11 +241,14 @@ h2._hM ._mB {
     top: -2em;
     z-index: 1;
 }
-    .ssp.card-section {
-        background-color: #dd4b39;
+    #taw .med div .card-section {
+        background-color: #FFF;
         border-radius: 99in;
         padding: .5em 1em;
         display: inline-block;
+    }
+    #taw .med div .ssp.card-section {
+        background-color: #dd4b39;
     }
         ._uwb {
             color: #FFF !important;
@@ -251,6 +258,10 @@ h2._hM ._mB {
             color: #BBDEFB;
             text-decoration: underline !important;
         }
+    #taw .med div .sp_cnt.card-section {
+        background-color: #E1F5FE;
+        margin-top: -1em;
+    }
 
 
 /* Unit conversion card */
