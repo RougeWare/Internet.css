@@ -6,9 +6,13 @@
     visibility: hidden;
 }
 
-.clauses .logical, .icon-add:not(#mi_1849) {
+.clauses .logical, .icon-add {
     position: relative;
     top: -1em;
+}
+
+.menu-item.icon-only .icon-add {
+    position: static;
 }
 
 .grid-cell[style*="text-indent: 32"], .grid-cell[style*="text-indent: 48"] {
@@ -18,7 +22,9 @@
 .node-content {
     padding-right: 0;
 }
-
+.richeditor-editarea {
+    position: static;
+}
 .richeditor-editarea iframe {
     outline: 1px solid #BBB;
     resize: vertical;
@@ -59,3 +65,6 @@
     color: #795548;
 }
 
+ol, ul, menu {
+    padding-left: 2em;
+}
