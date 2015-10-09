@@ -84,6 +84,12 @@ g-flippy-carousel g-right-button {
     width: 3em ;
     transition-property: opacity, box-shadow;
 }
+    ._zeh._W6g.nb-disabled,
+    g-flippy-carousel g-left-button.nb-disabled,
+    g-flippy-carousel g-right-button.nb-disabled {
+        /* Right and left arrows in scrolling result when disabled */
+        opacity: 0;
+    }
 
 .g .vk_cxp {
     box-shadow: none;
@@ -304,3 +310,4 @@ h2._hM ._mB {
     margin: -1em;
     box-shadow: none;
 }
+
