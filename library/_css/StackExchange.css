@@ -210,9 +210,15 @@
     padding-right: 2em;
 }
 
-.special-status .question-status {
+/* Yellow banner on question */
+.special-status .question-status,
+.bounty-notification .question-status {
     border-style: solid none;
 }
+    .bounty-notification .question-status {
+        margin-right: calc(-.5em - 1px);
+        box-sizing: border-box;
+    }
 
 .wmd-button-bar {
     border-style: none;
@@ -288,3 +294,9 @@ tr.comment>td {
     .accepted-answer .post-text hr {
         margin-right: 0;
     }
+
+/* Bounty */
+.bounty-link.bounty {
+    border: 1px solid #FFD600;
+    border-radius: 3px;
+}
