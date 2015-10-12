@@ -288,3 +288,9 @@ tr.comment>td {
     .accepted-answer .post-text hr {
         margin-right: 0;
     }
+
+/* Bounty */
+.bounty-link.bounty {
+    border: 1px solid #FFD600;
+    border-radius: 3px;
+}
