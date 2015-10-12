@@ -198,13 +198,40 @@ li.mod {
 div._Mcf.vk_c {
     padding: 0 !important;
 }
+    /* Map result map */
+    ._Xhb #lu_map {
+        /* #center_col{width} + #center_col{padding-horiz} */
+        width: calc(528px + 1em - 1px); /* TODO: find a more robust way to match parent width */
+        border-radius: 2px 2px 0 0;
+    }
 
-/* Map result map */
-._Xhb #lu_map {
-    /* #center_col{width} + #center_col{padding-horiz} */
-    width: calc(528px + 1em - 1px); /* TODO: find a more robust way to match parent width */
-    border-radius: 2px 2px 0 0;
+/* Google Now Set-A-Reminder card */
+#rso>#act-card {
+    padding: 0 !important;
 }
+
+    /* "Set a reminder" title */
+    #act-card .act-head {
+        border-radius: 2px 2px 0 0;
+    }
+    
+    /* Each section */
+    #act-card .act-row {
+        border-bottom: none;
+    }
+    
+    /* Middle section */
+    #act-card .act-body.act-row.act-rmd-tcc,
+    #act-card .act-row.act-body.act-rmd-pcc {
+        border-style: solid none;
+        border-width: 1px;
+        border-color: rgba(0,0,0, .1);
+    }
+    
+    /* Feedback beneath card */
+    #act-card #act-fbk-row {
+        padding-top: .5em;
+    }
 
 /* Ads */
 #tvcap #tads {
