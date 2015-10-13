@@ -212,7 +212,10 @@ div._Mcf.vk_c {
 
     /* "Set a reminder" title */
     #act-card .act-head {
+        background-color: #673AB7;
         border-radius: 2px 2px 0 0;
+        color: #FFF;
+        font-size: 1.5em;
     }
     
     /* Each section */
