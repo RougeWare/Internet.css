@@ -72,7 +72,7 @@ ol, ul, menu {
 
 
 /* Restricting page width */
-body {
+body:not([contenteditable]) {
     background-color: #B0BEC5;
 }
     .main-container {
