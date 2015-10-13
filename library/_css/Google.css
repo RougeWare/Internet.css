@@ -97,7 +97,12 @@ g-flippy-carousel g-right-button {
 }
 
 /* Material Shadows, by z-depth */
-.shadow-1, .srg>.g, .g.g-blk, ._yE>.g, .plsi, .card, .ads-ad, #rso>.g {
+.shadow-1,
+/* Search results */
+.srg>.g, .g.g-blk, ._yE>.g, .plsi, #rso>.g,
+.card,
+/* Ads */
+.ads-ad, .c._oc.commercial-unit-desktop-rhs {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
@@ -113,8 +118,10 @@ g-flippy-carousel g-right-button {
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4) !important;
 }
 
-.srg>.g, .g.g-blk, #rso>.g, ._yE>.g, .psli, ._Mcf.vk_c, .ads-ad {
-    background: #FFF !important;
+.srg>.g, .g.g-blk, #rso>.g, ._yE>.g, .psli, ._Mcf.vk_c,
+/* Ads */
+.ads-ad, .c._oc.commercial-unit-desktop-rhs {
+    background: #FFF;
     border-bottom: 1px solid transparent;
     border-radius: 2px;
     margin: 0 -1em 1.5em !important;
@@ -241,12 +248,24 @@ div._Mcf.vk_c {
     /* Top Ads section */
     margin-top: 1.5em;
 }
-    #tads .ads-ad {
-        /* Each ad in the Top Ads section */
+    /* Color all ads constistently */
+    #tads .ads-ad,
+    .c._oc.commercial-unit-desktop-rhs {
         background: #FFFDE7 !important;
+    }
+    /* Each ad in the Top and Right Ads sections */
+    #tads .ads-ad {
         margin-left: -.5em !important;
         margin-right: -.5em !important;
     }
+    /* Right-hand "Sponsored" section */
+    .c._oc.commercial-unit-desktop-rhs {
+        border: none !important;
+    }
+    	/* "Sponsored" text */
+	    .c._oc.commercial-unit-desktop-rhs ._Sb {
+	    	background: transparent;
+	    }
 
 #rcnt #center_col ._Ak {
     /* Sections above news or results sections */
