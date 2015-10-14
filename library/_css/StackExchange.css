@@ -67,11 +67,15 @@
 }
 .shadow-1,
 .answer, .question, .original-question, .wmd-container, .wmd-preview, .avatar-card, .user-panel, .card, #new-answer-activity {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12),
+                0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
 }
 .shadow-1-inset,
 .accepted-answer .vote {
-    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                inset 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+                inset 0 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
 .accepted-answer, [itemprop="acceptedAnswer"] {
