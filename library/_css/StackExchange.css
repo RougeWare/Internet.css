@@ -5,7 +5,7 @@
 
 #hmenus .nav ul li:not(.youarehere) a:not(:hover) {
     background-color: transparent;
-    color: #607D8B;
+    color: rgba(0,0,0, .5);
 }
 
 #mainbar {
