@@ -3,14 +3,9 @@
     box-shadow: none;
 }
 
-#hmenus .nav ul li:not(.youarehere) a {
+#hmenus .nav ul li:not(.youarehere) a:not(:hover) {
     background-color: transparent;
     color: #607D8B;
-}
-
-#hmenus .nav ul li:not(.youarehere) a:hover {
-    background-color: transparent;
-    color: #f69c55;
 }
 
 #mainbar {
