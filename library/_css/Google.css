@@ -249,7 +249,7 @@ div._Mcf.vk_c {
     margin-top: 1.5em;
 }
     /* Color all ads constistently */
-    #tads .ads-ad,
+    .ads-ad,
     .c._oc.commercial-unit-desktop-rhs {
         background: #FFFDE7 !important;
     }
