@@ -310,7 +310,8 @@ tr.comment>td {
 
 /* Search */
 .question-summary {
-    margin: .5em .125em;
     box-sizing: border-box;
+    margin: .5em .125em;
+    padding: 1em 0;
     width: calc(100% - .25em);
 }
