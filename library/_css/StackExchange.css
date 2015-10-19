@@ -223,7 +223,6 @@
     border-style: solid none;
 }
     .bounty-notification .question-status {
-        margin-right: calc(-.5em - 1px);
         box-sizing: border-box;
     }
 
