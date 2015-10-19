@@ -277,12 +277,20 @@ div._Mcf.vk_c {
     padding-bottom: 0;
 }
 
+/* "Ads" title */
+#tvcap #tads::before,
 h2._hM ._mB {
-    font-size: 1.5em;
+    content: "Ads";
+    display: block;
+    
     background-color: transparent;
     color: inherit;
+    font-size: 1.5em;
     margin-bottom: 1em;
 }
+    #tvcap #tads::before {
+        margin-bottom: .5em;
+    }
 
 /* Right-hand side results */
 #rhs .rhsvw {
