@@ -127,6 +127,9 @@ g-flippy-carousel g-right-button {
     margin: 0 -1em 1.5em !important;
     padding: 1em !important;
 }
+    #rso>.g.no-sep {
+        padding: 0 !important;
+    }
 
 .g:nth-child(4n) {
     border-bottom-color: #0f9d58;
@@ -360,3 +363,17 @@ h2._hM ._mB {
     box-shadow: none;
 }
 
+
+/* "Where am I?" result map card */
+.vk_c {
+    box-shadow: none !important;
+    width: auto !important;
+}
+    .lu_map_section {
+        width: 100%;
+        height: auto !important;
+    }
+        img#lu_map {
+            width: 100%;
+            height: auto;
+        }
