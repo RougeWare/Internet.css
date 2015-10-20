@@ -127,6 +127,9 @@ g-flippy-carousel g-right-button {
     margin: 0 -1em 1.5em !important;
     padding: 1em !important;
 }
+    #rso>.g.no-sep {
+        padding: 0 !important;
+    }
 
 .g:nth-child(4n) {
     border-bottom-color: #0f9d58;
@@ -274,12 +277,20 @@ div._Mcf.vk_c {
     padding-bottom: 0;
 }
 
+/* "Ads" title */
+#tvcap #tads::before,
 h2._hM ._mB {
-    font-size: 1.5em;
+    content: "Ads";
+    display: block;
+    
     background-color: transparent;
     color: inherit;
+    font-size: 1.5em;
     margin-bottom: 1em;
 }
+    #tvcap #tads::before {
+        margin-bottom: .5em;
+    }
 
 /* Right-hand side results */
 #rhs .rhsvw {
@@ -360,3 +371,17 @@ h2._hM ._mB {
     box-shadow: none;
 }
 
+
+/* "Where am I?" result map card */
+.vk_c {
+    box-shadow: none !important;
+    width: auto !important;
+}
+    .lu_map_section {
+        width: 100%;
+        height: auto !important;
+    }
+        img#lu_map {
+            width: 100%;
+            height: auto;
+        }

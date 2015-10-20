@@ -5,7 +5,7 @@
 
 #hmenus .nav ul li:not(.youarehere) a:not(:hover) {
     background-color: transparent;
-    color: #607D8B;
+    color: rgba(0,0,0, .5);
 }
 
 #mainbar {
@@ -91,7 +91,6 @@
 
 .answer, .question, .wmd-container, .wmd-preview {
     padding: 1em 0;
-    width: auto;
 }
 
 .avatar-card {
@@ -223,7 +222,6 @@
     border-style: solid none;
 }
     .bounty-notification .question-status {
-        margin-right: calc(-.5em - 1px);
         box-sizing: border-box;
     }
 
@@ -310,7 +308,8 @@ tr.comment>td {
 
 /* Search */
 .question-summary {
-    margin: .5em .125em;
     box-sizing: border-box;
+    margin: .5em .125em;
+    padding: 1em 0;
     width: calc(100% - .25em);
 }
