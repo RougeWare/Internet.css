@@ -99,7 +99,7 @@ g-flippy-carousel g-right-button {
 /* Material Shadows, by z-depth */
 .shadow-1,
 /* Search results */
-.srg>.g, .g.g-blk, ._yE>.g, .plsi, #rso>.g,
+.srg>.g, .g.g-blk, ._yE>.g, .plsi, #rso>.g, ._Mcf.vk_c,
 .card,
 /* Ads */
 .ads-ad, .c._oc.commercial-unit-desktop-rhs {
@@ -205,13 +205,13 @@ li.mod {
 }
 
 /* Map result card */
-div._Mcf.vk_c {
+._Mcf.vk_c {
     padding: 0 !important;
 }
     /* Map result map */
     ._Xhb #lu_map {
-        /* #center_col{width} + #center_col{padding-horiz} */
-        width: calc(528px + 1em - 1px); /* TODO: find a more robust way to match parent width */
+    	/* #center_col{width} + #center_col{padding-horiz} */
+        width: calc(528px + 1em); /* TODO: find a more robust way to match parent width */
         border-radius: 2px 2px 0 0;
     }
 
