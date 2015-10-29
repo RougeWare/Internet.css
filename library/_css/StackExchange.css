@@ -102,8 +102,9 @@
     padding-top: 10px ;
 }
 
-.answer, .question {
+.question-page #answers .answer, .question {
     position: relative;
+    border-bottom: none;
 }
 
 .answer, .question, .wmd-container, .wmd-preview {
