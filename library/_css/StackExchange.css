@@ -12,9 +12,26 @@
     padding-top: 0;
 }
 
-#new-answer-activity {
-    top: 1.2em;
+/* Make "new answers / edit / etc." link float */
+#answers {
+    position: relative;
 }
+    #new-answer-activity {
+        top: 1.2em;
+    }
+    .new-post-activity,
+    #new-answer-activity {
+        background-color: rgba(200, 230, 201, 0.9) ;
+        border-radius: 1em;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        color: #000;
+        left: calc(50% - 12em);
+        padding: 0.5em 1em;
+        position: absolute;
+        top: -1.5em;
+        width: 24em;
+    }
 
 #question-header, .subheader {
     background-color: transparent;
@@ -164,19 +181,6 @@
 .message.message-config.tooltip .message-text {
     color: #FFF ;
     /* Graph hover text popup text */
-}
-
-.new-post-activity, #new-answer-activity {
-    background-color: rgba(200, 230, 201, 0.9) ;
-    border-radius: 1em;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    color: #000;
-    left: calc(50% - 12em);
-    padding: 0.5em 1em;
-    position: absolute;
-    top: -1.5em;
-    width: 24em;
 }
 
 .owner {
