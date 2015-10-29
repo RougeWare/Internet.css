@@ -305,7 +305,11 @@ tr.comment>td {
 .bounty-link.bounty {
     border: 1px solid #FFD600;
     border-radius: 3px;
+    transition: background .3s ease;
 }
+    .bounty-link.bounty:hover {
+        background: #FFF9C4;
+    }
 
 /* Search */
 .question-summary {
