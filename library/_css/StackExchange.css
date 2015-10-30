@@ -105,6 +105,7 @@
 .question-page #answers .answer, .question {
     position: relative;
     border-bottom: none;
+    box-sizing: border-box;
 }
 
 .answer, .question, .wmd-container, .wmd-preview {
