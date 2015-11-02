@@ -287,6 +287,12 @@ pre code {
 pre, code, .show-votes .sidebar-linked .answer-votes, .show-votes .sidebar-related .answer-votes {
     background-color: rgba(0,0,0, 0.07);
 }
+    pre.prettyprint {
+        margin-right: -.5em;
+    }
+    .accepted-answer pre.prettyprint {
+        margin-right: 0;
+    }
 
 span.bounty-award {
     /*font-size: 2rem;*/
