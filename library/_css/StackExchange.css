@@ -12,9 +12,26 @@
     padding-top: 0;
 }
 
-#new-answer-activity {
-    top: 1.2em;
+/* Make "new answers / edit / etc." link float */
+#answers {
+    position: relative;
 }
+    #new-answer-activity {
+        top: 1.2em;
+    }
+    .new-post-activity,
+    #new-answer-activity {
+        background-color: rgba(200, 230, 201, 0.9) ;
+        border-radius: 1em;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        color: #000;
+        left: calc(50% - 12em);
+        padding: 0.5em 1em;
+        position: absolute;
+        top: -1.5em;
+        width: 24em;
+    }
 
 #question-header, .subheader {
     background-color: transparent;
@@ -85,8 +102,10 @@
     padding-top: 10px ;
 }
 
-.answer, .question {
+.question-page #answers .answer, .question {
     position: relative;
+    border-bottom: none;
+    box-sizing: border-box;
 }
 
 .answer, .question, .wmd-container, .wmd-preview {
@@ -138,7 +157,8 @@
     border-style: none;
     cursor: ns-resize;
     padding-bottom: 2px;
-    width: auto;
+    margin-right: 0 !important;
+    width: auto !important;
 }
 
 .ice-ice-baby .vote {
@@ -163,19 +183,6 @@
 .message.message-config.tooltip .message-text {
     color: #FFF ;
     /* Graph hover text popup text */
-}
-
-.new-post-activity, #new-answer-activity {
-    background-color: rgba(200, 230, 201, 0.9) ;
-    border-radius: 1em;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    color: #000;
-    left: calc(50% - 12em);
-    padding: 0.5em 1em;
-    position: absolute;
-    top: -1.5em;
-    width: 24em;
 }
 
 .owner {
@@ -304,7 +311,11 @@ tr.comment>td {
 .bounty-link.bounty {
     border: 1px solid #FFD600;
     border-radius: 3px;
+    transition: background .3s ease;
 }
+    .bounty-link.bounty:hover {
+        background: #FFF9C4;
+    }
 
 /* Search */
 .question-summary {
