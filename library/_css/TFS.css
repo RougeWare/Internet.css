@@ -22,13 +22,17 @@
 .node-content {
     padding-right: 0;
 }
-.richeditor-editarea {
-    position: static;
+.richeditor-container {
+    /* Allow items below rich editor ro move down */
+    height: auto !important;
 }
-.richeditor-editarea iframe {
-    outline: 1px solid #BBB !important;
-    resize: vertical;
-}
+    .richeditor-editarea {
+        position: static;
+    }
+    .richeditor-editarea iframe {
+        outline: 1px solid #BBB !important;
+        resize: vertical;
+    }
 
 [title$="Critical"] {
     background-color: #212121;
