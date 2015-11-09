@@ -38,6 +38,11 @@
     border-bottom-color: rgba(0,0,0, .2);
 }
 
+/* Make question contents full-width */
+#question>table {
+    width: 100%;
+}
+
 #system-message {
     background-color: transparent;
 }
@@ -329,4 +334,9 @@ tr.comment>td {
     margin: .5em .125em;
     padding: 1em 0;
     width: calc(100% - .25em);
+}
+
+/* User profile images that can expand into info cards */
+.user-hover [class*="user-gravatar"] * {
+    cursor: progress;
 }
