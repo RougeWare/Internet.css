@@ -147,6 +147,14 @@ g-flippy-carousel g-right-button {
     border-bottom-color: #4285f4;
 }
 
+/* Result title links */
+#tads a, #tadsb a, #res a, #rhs a, #taw a {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
 .kno-ftr {
     box-sizing: border-box;
     /* Feedback footer in fancy card */
