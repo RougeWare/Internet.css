@@ -329,12 +329,15 @@ tr.comment>td {
     }
 
 /* Search */
-.question-summary {
-    box-sizing: border-box;
-    margin: .5em .125em;
-    padding: 1em 0;
-    width: calc(100% - .25em);
+#qlist-wrapper {
+    position: relative;
 }
+    .question-summary {
+        box-sizing: border-box;
+        margin: .5em .125em;
+        padding: 1em 0;
+        width: calc(100% - .25em);
+    }
 
 /* User profile images that can expand into info cards */
 .user-hover [class*="user-gravatar"] * {
