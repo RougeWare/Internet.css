@@ -95,3 +95,8 @@ body:not([contenteditable]) {
         .main {
             min-width: 720px;
         }
+
+/* Movable view splitter */
+.splitter.vertical>.handleBar {
+    cursor: ns-resize;
+}
