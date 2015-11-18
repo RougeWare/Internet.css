@@ -98,6 +98,7 @@ body:not([contenteditable]) {
 
 /* Movable view splitter */
 .splitter.vertical>.handleBar,
-.splitter.vertical>.handleBar-clone {
+.splitter.vertical>.handleBar-clone,
+.splitter.vertical>.overlay {
     cursor: ns-resize;
 }
