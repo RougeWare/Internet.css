@@ -1,5 +1,5 @@
-#content, #mainbar {
-    background-color: transparent;
+#content {
+    background-color: #ECEFF1;
     box-shadow: none;
 }
 
@@ -9,6 +9,7 @@
 }
 
 #mainbar {
+    background-color: transparent;
     padding-top: 0;
 }
 
@@ -264,10 +265,6 @@
     border: none;
     padding-left: .5em;
     padding-right: .5em;
-}
-
-body {
-    background-color: #ECEFF1;
 }
 
 /** Q&A **/
