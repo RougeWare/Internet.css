@@ -148,7 +148,7 @@ g-flippy-carousel g-right-button {
 }
 
 /* Result title links */
-#tads a, #tadsb a, #res a, #rhs a, #taw a {
+#tads a, #tadsb a, #res a, #rhs a, #taw cite a {
     max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
