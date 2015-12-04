@@ -48,8 +48,12 @@
 }
 
 [title*="Design"] {
-    background-color: #FFF;
-    background-image: linear-gradient(#E3F2FD 1px, transparent 1px), linear-gradient(90deg, #E3F2FD 1px, transparent 1px);
+    background-color: #003153;
+    background-image: linear-gradient(rgba(255,255,255,.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.2) 1px, transparent 1px);
+    color: #FFF;
+    text-shadow: 0px 0px 4px #003153,0px 0px 4px #003153,0px 0px 4px #003153,0px 0px 4px #003153;
+    font-weight: 600;
+    letter-spacing: 1px;
     background-size: 5px 5px, 5px 5px;
 }
 
