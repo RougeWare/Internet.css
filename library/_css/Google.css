@@ -13,7 +13,7 @@
 }
 
 #rhs .g-blk.rhsvw {
-    padding: 1em;
+    padding: 0em !important;
 }
 
 #rhs .kno-fb-ctx._Dnh {
@@ -145,6 +145,14 @@ g-flippy-carousel g-right-button {
 
 .g:nth-child(4n-3) {
     border-bottom-color: #4285f4;
+}
+
+/* Result title links */
+#tads a, #tadsb a, #res a, #rhs a, #taw a {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
 }
 
 .kno-ftr {
