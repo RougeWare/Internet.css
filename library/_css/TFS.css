@@ -92,6 +92,8 @@ ol, ul, menu {
 /* Restricting page width */
 body:not([contenteditable]) {
     background-color: #B0BEC5;
+    background-size: cover;
+    height: 100vh;
 }
     .main-container {
         transition: .3s ease margin;
