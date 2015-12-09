@@ -10,6 +10,23 @@
     position: relative;
     top: -1em;
 }
+    .clauses .logical {
+        left: -1ex;
+        top: -1.25ex;
+    }
+        .clauses .logical:not(:empty)::after {
+            content: ">";
+            content: "▶︎";
+            position: absolute;
+            top: 0;
+            right: -1ex;
+            right: calc(-1ex - 1px);
+            color: #e6e6e6;
+            pointer-events: none;
+        }
+    .icon-add {
+        top: -1em;
+    }
 
 .menu-item.icon-only .icon-add {
     position: static;
