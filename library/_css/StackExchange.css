@@ -349,3 +349,21 @@ tr.comment>td {
 .user-hover [class*="user-gravatar"] * {
     cursor: progress;
 }
+
+/* User Top Tags */
+.top-tags .tag-wrapper .tag-container.row {
+    background: transparent;
+}
+    .top-tags .tag-wrapper .tag-container.row .col {
+        border: none;
+        background: #FFF;
+    }
+        .top-tags .tag-wrapper .tag-container.row .col:not(:last-child) {
+            margin-right: 1ex;
+        }
+        .top-tags .tag-wrapper .tag-container.row .col-4 {
+            width: calc((100% / 3) - (2ex / 3));
+        }
+        .top-tags .tag-wrapper .tag-container.row .col-6 {
+            width: calc((100% / 2) - (1ex / 2));
+        }
