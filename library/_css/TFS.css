@@ -88,8 +88,12 @@
     background-color: #EEEEEE;
 }
 
-[title="In Progress"], [title="Development"] {
+[title="In Progress"], [title="Development"], [title="Committed"] {
     background-color: #A5D6A7;
+}
+
+[title="In CodeReview"] {
+    background-color: #FFF176 ;
 }
 
 [title="QA"], [title="Testing"] {
@@ -108,6 +112,7 @@ ol, ul, menu {
 
 /* Restricting page width */
 body:not([contenteditable]) {
+    background-attachment: fixed;
     background-color: #B0BEC5;
     background-size: cover;
     height: 100vh;
@@ -134,4 +139,11 @@ body:not([contenteditable]) {
 .splitter.vertical>.handleBar-clone,
 .splitter.vertical>.overlay {
     cursor: ns-resize;
+}
+
+/* Plaintext pages */
+html>body>pre:only-of-type {
+    background: rgba(255,255,255,.9);
+    padding: 1em;
+    margin: -1em;
 }
