@@ -88,8 +88,12 @@
     background-color: #EEEEEE;
 }
 
-[title="In Progress"], [title="Development"] {
+[title="In Progress"], [title="Development"], [title="Committed"] {
     background-color: #A5D6A7;
+}
+
+[title="In CodeReview"] {
+    background-color: #FFF176 ;
 }
 
 [title="QA"], [title="Testing"] {
