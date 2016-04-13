@@ -59,6 +59,8 @@
 .answer, .question, .original-question, .wmd-container, .wmd-preview, .avatar-card, .user-panel, .card, #new-answer-activity,
 /* Search */
 .question-summary,
+/* Notifications */
+.realtime-post-deleted-notification p,
 /* Sidebar */
 #hireme, .community-bulletin {
     background-color: #FFF;
@@ -69,6 +71,8 @@
 .shadow-1, .answer, .question, .original-question, .wmd-container, .wmd-preview, .avatar-card, .user-panel, .card, #new-answer-activity,
 /* Search */
 .question-summary,
+/* Notifications */
+.realtime-post-deleted-notification p,
 /* Sidebar */
 #hireme, .community-bulletin {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
@@ -329,6 +333,10 @@ tr.comment>td {
     .bounty-link.bounty:hover {
         background: #FFF9C4;
     }
+
+.realtime-post-deleted-notification p {
+    background-color: #FFCDD2;
+}
 
 /* Search */
 #qlist-wrapper {
