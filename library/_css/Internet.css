@@ -7,3 +7,9 @@
 textarea {
     font-family: monospace;
 }
+
+:root>audio, body>audio,
+:root>video, body>video {
+    min-width: 90vw;
+    min-width: calc(100vw - 1cm);
+}
