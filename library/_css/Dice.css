@@ -2,6 +2,7 @@
 .searchability-switch-label,
 .profile-summary .form-group .profile-summary-label,
 .work-years,
-.settings-section {
+.settings-section,
+.settings-section .checkbox label {
     font-weight: normal;
 }
