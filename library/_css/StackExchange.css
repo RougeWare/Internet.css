@@ -1,3 +1,8 @@
+/* StackExchange.css
+ * Made to be used on StackExchange sites. Tested on URLs matching the regex /https?://(\w+\.)?(stack(overflow|exchange))\.com\b.*?/i
+ */
+
+
 #content {
     background-color: #ECEFF1;
     box-shadow: none;
