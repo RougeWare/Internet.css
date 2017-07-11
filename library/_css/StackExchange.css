@@ -282,6 +282,11 @@
     background-color: #ECEFF1;
 }*/
 
+/* Make deleted questions' backgrounds red */
+.question[class*="deleted"] {
+    background-color: #FFCDD2;
+}
+
 kbd {
     background-color: #263238;
     border: none;
@@ -324,6 +329,8 @@ tr.comment>td {
 
 .post-text hr {
     margin-right: -0.5em;
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.1);
 }
     .accepted-answer .post-text hr {
         margin-right: 0;
