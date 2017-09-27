@@ -5,6 +5,7 @@
 
 #content {
     background-color: #ECEFF1;
+    background-color: rgba(69, 90, 100, 0.1);
     box-shadow: none;
 }
 
@@ -234,11 +235,6 @@
     width: calc(100% - 1em);
 }
 
-.question-status.bounty h2 {
-    line-height: 3;
-    text-align: center;
-}
-
 .rep-card, .badges-card {
     padding-right: 2em;
 }
@@ -315,12 +311,8 @@ pre, code, .show-votes .sidebar-linked .answer-votes, .show-votes .sidebar-relat
         margin-right: 0;
     }
 
-span.bounty-award {
-    /*font-size: 2rem;*/
-    display: block;
-    margin: auto;
-    text-align: center;
-    width: 3em;
+.post-text code, .wmd-preview code {
+    font-size: inherit;
 }
 
 tr.comment>td {
@@ -345,6 +337,44 @@ tr.comment>td {
     .bounty-link.bounty:hover {
         background: #FFF9C4;
     }
+
+span.bounty-award {
+    background-color: rgba(255,255,255,0);
+    color: #1976D2 !important;
+    display: block;
+    font-weight: bolder;
+    /*font-size: 2rem;*/
+    margin: auto;
+    text-align: center;
+    width: 3em;
+}
+    .question-status.bounty span.bounty-award {
+        background-color: #FFF;
+    }
+
+.bounty-award-container::after {
+    content: "";
+    display: block;
+    height: 1em;
+}
+
+.question-status.bounty {
+    background-color: #1976D2;
+    color: #FFF;
+}
+    .question-status.bounty a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    .question-status.bounty h2 {
+        line-height: 3;
+        text-align: center;
+    }
+.vote-accepted-bounty,
+.vote-accepted-off,
+.vote-accepted-on {
+    margin-bottom: 0;
+}
 
 .realtime-post-deleted-notification p {
     background-color: #FFCDD2;
